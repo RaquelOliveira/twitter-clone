@@ -1,0 +1,45 @@
+.App {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 350px auto 350px ;
+    text-align: center;
+}
+
+.App-header {
+    grid-column: 1 / span 3;
+    background-color: #1b45d1;
+    color: white;
+}
+
+.App-card {
+    background-color: #dd5cbd;
+    color: white;
+    grid-column: 2 ;
+    grid-row: 3/ span 15 ;
+    
+
+}
+
+.App-profile {
+
+    background-color: rgb(51, 206, 64);
+    color: white;
+    grid-row: 2/ span 20 ;
+
+}
+.App-follow {
+
+    background-color: rgb(128, 79, 218);
+    grid-column: 3 ;
+    grid-row: 2/ span 20 ;
+    color: white;
+
+}
+.App-newCard {
+
+    background-color: rgb(32, 134, 218);
+    color: white;
+    grid-column: 2 ;
+    grid-row: 2 ;
+
+}
